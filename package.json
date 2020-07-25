@@ -1,0 +1,27 @@
+{
+  "name": "mysqlimporter",
+  "version": "1.0.0",
+  "description": "Restore DB MYSQL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertgon97/mysqlimporter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "textfiles",
+    "import",
+    "restore",
+    "sql"
+  ],
+  "author": "Robert Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertgon97/mysqlimporter/issues"
+  },
+  "homepage": "https://github.com/robertgon97/mysqlimporter#readme"
+}
