@@ -30,7 +30,7 @@
     "mysql": "^2.10.2"
   },
   "devDependencies": {
-    "eslint": "^2.5.1",
+    "eslint": "^7.5.0",
     "eslint-plugin-jasmine": "^1.6.0",
     "eslint-plugin-node": "^1.0.0"
   },
