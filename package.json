@@ -23,5 +23,18 @@
   "bugs": {
     "url": "https://github.com/robertgon97/mysqlimporter/issues"
   },
-  "homepage": "https://github.com/robertgon97/mysqlimporter#readme"
+  "homepage": "https://github.com/robertgon97/mysqlimporter#readme",
+  "dependencies": {
+    "fs-promise": "^0.5.0",
+    "jsonschema": "^1.1.0",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.1",
+    "eslint-plugin-jasmine": "^1.6.0",
+    "eslint-plugin-node": "^1.0.0"
+  },
+  "engines": {
+		"node": ">5.0.0"
+	}
 }
