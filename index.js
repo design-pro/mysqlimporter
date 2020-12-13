@@ -65,13 +65,15 @@ function runQueries(arr) {
 	console.log(JSON.stringify(conn, null, 2))
 	let db = mysql.createConnection(conn)
 	Promise.all( arr.map( item => {
-		console.log(item)
+		// console.log(item)
 		db.query(item, (err, rows) => {
 			if (err) {
         // throw 'ERROR: '+err
-        return 'ERROR: ' + err
+        // return 'ERROR: ' + err
+				console.log("error",err)
 			}
-			return 'ROWS: '+rows
+			consoel.log("row",rows)
+			// return 'ROWS: '+rows
 		})
 	})).then( () => {
 		console.log('DONE!')
