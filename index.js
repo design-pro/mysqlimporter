@@ -10,7 +10,8 @@ const configSchema = {
 	'host': {'type': 'string'},
 	'user': {'type': 'string'},
 	'password': {'type': 'string'},
-	'database': {'type': 'string'}
+	'database': {'type': 'string'},
+	'charset' : 'utf8'
 }
 
 exports.config = data => {
