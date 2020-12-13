@@ -72,7 +72,7 @@ function runQueries(arr) {
         // return 'ERROR: ' + err
 				console.log("error",err)
 			}
-			consoel.log("row",rows)
+			console.log("row",rows)
 			// return 'ROWS: '+rows
 		})
 	})).then( () => {
